@@ -1,0 +1,97 @@
+{
+  "categories": [
+    {
+      "id": "technology",
+      "name": "テクノロジ系",
+      "color": "#2563eb",
+      "subcategories": [
+        {
+          "id": "technology_basic",
+          "name": "基礎理論",
+          "topics": [
+            { "id": "tech_discrete", "name": "離散数学・数値計算・情報理論", "dataKey": "technology_algorithm" },
+            { "id": "tech_algorithm", "name": "アルゴリズムとプログラミング", "dataKey": "technology_algorithm" }
+          ]
+        },
+        {
+          "id": "technology_computer",
+          "name": "コンピュータシステム",
+          "topics": [
+            { "id": "tech_cpu", "name": "コンピュータ構成要素（CPU・メモリ・入出力）", "dataKey": "technology_computer" },
+            { "id": "tech_system", "name": "システム構成要素", "dataKey": "technology_computer" },
+            { "id": "tech_os", "name": "ソフトウェア（OS・言語処理）", "dataKey": "technology_os" },
+            { "id": "tech_hw", "name": "ハードウェア", "dataKey": "technology_computer" }
+          ]
+        },
+        {
+          "id": "technology_elements",
+          "name": "技術要素",
+          "topics": [
+            { "id": "tech_ui", "name": "ヒューマンインタフェース", "dataKey": "technology_os" },
+            { "id": "tech_media", "name": "マルチメディア", "dataKey": "technology_os" },
+            { "id": "tech_db", "name": "データベース", "dataKey": "technology_database" },
+            { "id": "tech_network", "name": "ネットワーク", "dataKey": "technology_network" },
+            { "id": "tech_security", "name": "セキュリティ", "dataKey": "technology_security" }
+          ]
+        },
+        {
+          "id": "technology_dev",
+          "name": "開発技術",
+          "topics": [
+            { "id": "tech_sysdev", "name": "システム開発技術", "dataKey": "technology_os" },
+            { "id": "tech_swmgmt", "name": "ソフトウェア開発管理技術", "dataKey": "technology_os" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "name": "マネジメント系",
+      "color": "#16a34a",
+      "subcategories": [
+        {
+          "id": "management_project",
+          "name": "プロジェクトマネジメント",
+          "topics": [
+            { "id": "mgmt_project", "name": "プロジェクトマネジメント", "dataKey": "management" }
+          ]
+        },
+        {
+          "id": "management_service",
+          "name": "サービスマネジメント",
+          "topics": [
+            { "id": "mgmt_service", "name": "サービスマネジメント", "dataKey": "management" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strategy",
+      "name": "ストラテジ系",
+      "color": "#9333ea",
+      "subcategories": [
+        {
+          "id": "strategy_system",
+          "name": "システム戦略",
+          "topics": [
+            { "id": "strat_system", "name": "システム戦略", "dataKey": "strategy" }
+          ]
+        },
+        {
+          "id": "strategy_business",
+          "name": "経営戦略",
+          "topics": [
+            { "id": "strat_business", "name": "経営戦略", "dataKey": "strategy" }
+          ]
+        },
+        {
+          "id": "strategy_law",
+          "name": "企業と法務",
+          "topics": [
+            { "id": "strat_law", "name": "企業と法務", "dataKey": "strategy" }
+          ]
+        }
+      ]
+    }
+  ]
+}
