@@ -1,6 +1,8 @@
 # FEPass - 基本情報技術者試験 学習アプリ
 
-基本情報技術者試験（FE）の合格を目指すWebアプリケーションです。APIキー不要で完全動作し、GitHub Pages / Netlify / Vercel で無料公開できます。
+🌐 **公開URL**: https://sikimu.github.io/FEPass/
+
+基本情報技術者試験（FE）の合格を目指すWebアプリケーションです。APIキー不要で完全動作します。
 
 ## 機能
 
